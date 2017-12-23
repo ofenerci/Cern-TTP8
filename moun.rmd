@@ -1,6 +1,0 @@
-output:
-  github_document:
-    pandoc_args: --webtex
-
-
-$x^2$
