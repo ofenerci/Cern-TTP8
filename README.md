@@ -1,5 +1,5 @@
 # Cern-TTP8
-21-27 Ocak 2018 tarihleri arasında yapılacak olan 8.Türk Öğretmen Çalıştayına ait belgelerin paylaşıldığı bir depodur. Bu çalıştayda yapılması düşünülen Moun dedektörü [Cosmic Watch](http://www.cosmicwatch.lns.mit.edu)  ve Python kullanarak CERN deneylerinden veri analizi nasıl yapılacağını gösteren [Parçacık Fiziği Oyun Alanı](http://particle-physics-playground.github.io) web siteleri kullanılarak ortak bir lise müfredatı geliştirmeye çalışılacaktır. 
+21-27 Ocak 2018 tarihleri arasında yapılacak olan 8.Türk Öğretmen Çalıştayına ait belgelerin paylaşıldığı bir depodur. Bu çalıştayda yapılması düşünülen Moun dedektörü [Cosmic Watch](http://www.cosmicwatch.lns.mit.edu)  ve Python kullanarak CERN deneylerinden veri analizi nasıl yapılacağını gösteren [Parçacık Fiziği Oyun Alanı](http://particle-physics-playground.github.io) web siteleri kullanılarak ortak bir lise müfredatı geliştirilmeye  çalışılacaktır. 
 
 ## 1. Cosmic Watch Muon Dedektör Projesi 
 Bu proje MIT Fizik [öğrencileri](http://www.cosmicwatch.lns.mit.edu/about#people) tarafından başlatılmış olup yaklaşık 100$ malolduğu belirtilmektedir. Bu projede algılayacı olarak plastik scintillator (plastik ışıldıyıcı) ve ışık toplayacı olarak da  photomultiplier (ışıl çoğaltıcı kulanılmaktadır. Muon dedektörü pil ile çalışmakta ve bu dedektör ile birlikte gelen yazılım ile ilginç deneyler yapılmaktaır. 
@@ -24,7 +24,15 @@ En pahalı olan bir malzeme olarak gözüküyor. Sensl sayfasında tanesi $119.0
 * SMD'nin 4'nün bir arada olduğu bir chip [ArrayC-60035-4P-BGA](http://sensl.com/estore/arrayc-60035-4p-bga/) var. Bu chipin fiyatı $165.00 dır. Tekinin fiyatı yaklaşık $41.00'a geliyor. Cosmic Watch dedektöründe bunu kullanabilir miyim? Bu 4'lü olanının tek olarak satılan [microFC-60035-SMT]((http://sensl.com/estore/muon60035/) ne farkı var? 
 * Bu parçayı Türkiye'den elde edebilir miyiz? 
 
-#### 1.2.2 PCB 
+#### 1.2.2 Baskılı Devre Kartı (PCB)
+Cosmic Watch iki tane PCB'den oluşuyor (SiPM PCB ve Main PCB) . PCB ile genel bilgiye [Cosmic Watch Sitesinden](http://www.cosmicwatch.lns.mit.edu/detector#steps) ulaşabilirsin. M
+
+* [Main PCB](http://www.cosmicwatch.lns.mit.edu/detector#section4): Bu devre 0805 SMT (kapasitör ve rezistörler için) kullanıyor. Bunun anlamı devredeki SMT'lerin boyutunun 0.08 inçe 0.05 olduğunu belirtiyor. 
+* 
+
+##### PCB ile kafama takılan sorular:
+* SMT'ler için iyi bir cımbız gerekiyor. İyi bir cımbız al. 
+* SMT'leri PCB üzerine nasıl monte edeceğini öğren. Bunun için bir alıştırma kartı al ve uygulamayı bu devre üzerinde yap. Bunun için [SMD Lehimleme Kartı](https://www.robotistan.com/smd-lehimleme-pratik-karti-kucuk-boy) kullanabilirsin. Ayrıca SMT'leri devreye monte etmen için iyi bir sıcak hava istasyonuna ihtiyacın olacak. Aliexpress'de satılan [lehim istasyonlar](https://tr.aliexpress.com/item/EAKINS-8586-BGA-SMD-Rework-Istasyonu-750-W-2-1-dijital-ESD-S-cak-Hava-Tabancas/32844926631.html) var. 
 
 
 
