@@ -1,6 +1,6 @@
+output:
+  github_document:
+    pandoc_args: --webtex
 
 
----
-output: rmarkdown::github_document
----
 $x^2$
