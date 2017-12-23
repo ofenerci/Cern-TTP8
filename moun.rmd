@@ -1,3 +1,5 @@
 output: rmarkdown::github_document
 
-$x^2$
+---
+output: rmarkdown::github_document
+---
