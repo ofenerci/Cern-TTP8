@@ -11,12 +11,21 @@ Kozmik ışınların atmosfer tabakası ile etkileşmelerinin sonunda muon parç
 Deniz seviyesinde dik bir muon algılayıcısının 1 cm^2'sine 1 dk.da düşen muon akısı yaklaşık olarak 1 dir. Deniz yüzeyine gelen muonlara, başka parçacık kalıntıları foton ve protonlar da eşlik eder. Yalnızca muonları algılamak için muon dedektörleri metal bir koruyucu kılıf içine konur. 
 
 ### 1.2 Cosmic Wathch Muon Dedektörü Nasıl Yapılır?
+* Cosmic Watch algılayıcısının nasıl yapılacağı hakkında [adımlar](http://www.cosmicwatch.lns.mit.edu/detector#steps).
+* Cosmic Watch ile ilgili [sıkca sorulan sorular](http://www.cosmicwatch.lns.mit.edu/faq).
+* Cosmic Watch'un [github deposu](https://github.com/spenceraxani/CosmicWatch-Desktop-Muon-Detector). 
+* Cosmic Watch'un nasıl yapılacağını anlatan [el kitapçığı](
+
 #### 1.2.1 Silicon Photomultiplier( SiPM-Silikon Işık Çoğaltıcısı)
 En pahalı olan bir malzeme olarak gözüküyor. Sensl sayfasında tanesi $119.00 satılıyor. Şu anda özel olarak indirimi uyguluyorlar. Şu andaki fiyatı yaklaşık 60$ ve 15$ yaklaşık fiyatı var. [Sensl sayfasından](http://sensl.com/estore/muon60035/) sipariş edebilirsin. Surface Mount Technology-Surface Mount Device (SMT,SMD) kullanarak üretilmiş. 
 
 ##### SMT ile kafama takılanlar:
 * SMD'yi devreye nasıl monte edeceğiz. Bununla ilgili *Sensl*'in web sayfasında nasıl monte edeceğin üzerine bir belge yayınlamışlar. Bu belgeye [burdan](https://github.com/ofenerci/Cern-TTP8/blob/master/Malzemeler/TN-Handling%20and%20Soldering%20Guideline%20for%20%20SMT%20Devices.pdf) burdan ulaşabilirsin. 
-  * SMD'yi 
+* SMD'nin 4'nün bir arada olduğu bir chip [ArrayC-60035-4P-BGA](http://sensl.com/estore/arrayc-60035-4p-bga/) var. Bu chipin fiyatı $165.00 dır. Tekinin fiyatı yaklaşık $41.00'a geliyor. Cosmic Watch dedektöründe bunu kullanabilir miyim? Bu 4'lü olanının tek olarak satılan [microFC-60035-SMT]((http://sensl.com/estore/muon60035/) ne farkı var? 
+* Bu parçayı Türkiye'den elde edebilir miyiz? 
+
+#### 1.2.2 PCB 
+
 
 
 
